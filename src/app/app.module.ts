@@ -19,10 +19,8 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { UserLoginComponent } from './user-login/user-login.component';
 import { ParticipantComponent } from './participant/participant.component';
 import { LayoutComponent } from './layout/layout.component';
-import { AnnoucementComponent } from './annoucement/annoucement.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { RewardComponent } from './reward/reward.component';
-import {CKEditorModule} from 'ng2-ckeditor';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
@@ -54,7 +52,6 @@ import { EditdialogComponent } from './editdialog/editdialog.component';
 import { AnnouncementlistComponent } from './announcementlist/announcementlist.component';
 import { NoopAnimationsModule  } from '@angular/platform-browser/animations';
 import { MatDatepickerModule } from '@angular/material/datepicker';
-import { MatMomentDateModule } from '@angular/material-moment-adapter';
 
 
 
@@ -75,7 +72,6 @@ import { MatMomentDateModule } from '@angular/material-moment-adapter';
     UserLoginComponent,
     ParticipantComponent,
     LayoutComponent,
-    AnnoucementComponent,
     SidebarComponent,
     RewardComponent,
     PublicAnnoucementComponent,
@@ -92,11 +88,11 @@ import { MatMomentDateModule } from '@angular/material-moment-adapter';
     PublicGalleryComponent,
     EditdialogComponent,
     AnnouncementlistComponent,
-    
-    
- 
-    
-    
+
+
+
+
+
   ],
   imports: [
     BrowserModule,
@@ -114,7 +110,6 @@ import { MatMomentDateModule } from '@angular/material-moment-adapter';
     MatCardModule,
     MatMenuModule,
     FormsModule,
-    CKEditorModule,
     MatTableModule,
     MatFormFieldModule,
     MatOptionModule,
@@ -125,12 +120,11 @@ import { MatMomentDateModule } from '@angular/material-moment-adapter';
     MatCheckboxModule,
     NoopAnimationsModule,
     MatDatepickerModule,
-    MatMomentDateModule
- 
 
 
-    
-    
+
+
+
 
   ],
   providers: [ApiserviceService],

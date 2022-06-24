@@ -16,10 +16,9 @@ import { LayoutComponent } from './layout/layout.component';
 import { ParticipantComponent } from './participant/participant.component';
 import { RewardComponent } from './reward/reward.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
-import { AnnoucementComponent } from './annoucement/annoucement.component';
 import { PublicAnnoucementComponent } from './public-annoucement/public-annoucement.component';
 import { FooterComponent } from './footer/footer.component';
-import { DialogComponent } from './dialog/dialog.component'; 
+import { DialogComponent } from './dialog/dialog.component';
 import { TeamComponent } from './team/team.component';
 import { TeamsComponent } from './teams/teams.component';
 import { RulesComponent } from './rules/rules.component';
@@ -57,7 +56,6 @@ const routes: Routes = [
   {path:"participant",component:ParticipantComponent},
   {path:"reward",component:RewardComponent},
   {path:"sidebar",component:SidebarComponent},
-  {path:"annoucement",component:AnnoucementComponent},
   {path:"public-annoucement",component:PublicAnnoucementComponent},
   {path:"footer",component:FooterComponent},
   {path:"dialog",component:DialogComponent},
@@ -70,7 +68,7 @@ const routes: Routes = [
   {path:"post",component:PostComponent},
   {path:"public-gallery",component:PublicGalleryComponent},
   {path:"announcementlist",component:AnnouncementlistComponent},
-  
+
 
   //Testing
   {path:"test",component:TestComponent},
@@ -81,7 +79,7 @@ const routes: Routes = [
 
 
 
-  
+
 
 ];
 

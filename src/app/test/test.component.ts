@@ -4,26 +4,9 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-test',
   templateUrl: './test.component.html',
   styleUrls: ['./test.component.css'],
-  template: `
-  <ckeditor
-    [(ngModel)]="ckeditorContent"
-    [config]="{uiColor: '#99000'}"
-    [readonly]="false"
-    (change)="onChange($event)"
-    (editorChange)="onEditorChange($event)" <!-- CKEditor change event -->
-    (ready)="onReady($event)"
-    (focus)="onFocus($event)"
-    (blur)="onBlur($event)"
-    (contentDom)="onContentDom($event)"
-    (fileUploadRequest)="onFileUploadRequest($event)"
-    (fileUploadResponse)="onFileUploadResponse($event)"
-    (paste)="onPaste($event)"
-    (drop)="onDrop($event)"
-    debounce="500">
-  </ckeditor>
-  `,
+  template: ``,
 
-  
+
 })
 export class TestComponent implements OnInit {
 
@@ -34,7 +17,7 @@ export class TestComponent implements OnInit {
 
   ckeditorContent:any;
   registerForm:any;
- 
+
 
   clickHandle()
   {
