@@ -44,6 +44,7 @@
 
 }
 
+
 #check:checked ~ .nav-links{
   left: 0;
 }
@@ -93,6 +94,77 @@ h2{
   margin-top: -200px;
   color:#fff;
   font-size: 14px;
+}
+.ball{
+  width: 100px;
+  height: 100px;
+  background-color: #003782;
+  border-radius: 50%;
+  margin-top:350px;
+  margin-left: 60px;
+  animation: aniname 2s 1;
+}
+@keyframes  aniname{
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+.ball3{
+  width: 100px;
+  height: 100px;
+  background-color: #e6b012;
+  border-radius: 50%;
+  margin-top:-70px;
+  margin-left: 850px;
+  animation: aniname1 2s 1;
+}
+@keyframes  aniname1{
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+.ball2{
+  width: 100px;
+  height: 100px;
+  background-color: #ce1127;
+  border-radius: 50%;
+  margin-top:-460px;
+  margin-left: 480px;
+  animation: aniname2 2s 1;
+}
+@keyframes  aniname2{
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+.the-content p{
+  left: 27.5%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  margin-top: -625px;
+  color:#003782;
+  font-size: 30px;
+}
+.the-back{
+  width: 50%;
+  height: 50vh;
+  background-image: url(background.png);
+  background-position: center;
+  background-size: cover;
+  margin: 10px;
+}
+.the-back img{
+  width: 150px;
+  margin-left: 100px;
 }
 
 .slider figure div{
@@ -1588,6 +1660,16 @@ h2{
     margin-top: -500px;
     color:#fff;
     font-size: 63px;
+    animation: animate 2s;
+}
+
+@keyframes animate {
+  0%{
+     transform: scale(0);
+  }
+  100%{
+     transform: scale(1);
+  }
 }
 .the-content p{
   left: 25%;
@@ -1809,6 +1891,7 @@ span{
   96%{left:0%;}
 
 }
+
 .hack-themes{
     width: 100%;
     height: 45vh;
@@ -1960,22 +2043,85 @@ transform:scale(1.1);
 }
 h2{
 
-    left: 32%;
+    left: 26.5%;
     transform: translate(-50%,-50%);
     position: absolute;
-    margin-top: -700px;
-    color:#fff;
-    font-size: 85px;
+    margin-top: -720px;
+    color:#003782;
+    font-weight: bold;
+    font-size: 50px;
+}
+.ball{
+  width: 300px;
+  height: 300px;
+  background-color: #003782;
+  border-radius: 50%;
+  margin-top:350px;
+  margin-left: 60px;
+  animation: aniname 2s 1;
+}
+@keyframes  aniname{
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+.ball3{
+  width: 300px;
+  height: 300px;
+  background-color: #e6b012;
+  border-radius: 50%;
+  margin-top:-70px;
+  margin-left: 850px;
+  animation: aniname1 2s 1;
+}
+@keyframes  aniname1{
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+.ball2{
+  width: 240px;
+  height: 240px;
+  background-color: #ce1127;
+  border-radius: 50%;
+  margin-top:-460px;
+  margin-left: 480px;
+  animation: aniname2 2s 1;
+}
+@keyframes  aniname2{
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
 }
 .the-content p{
-  left: 21%;
+  left: 27.5%;
   transform: translate(-50%,-50%);
   position: absolute;
-  margin-top: -620px;
-  color:#fff;
-  font-size: 23px;
+  margin-top: -625px;
+  color:#003782;
+  font-size: 30px;
 }
-
+.the-back{
+  width: 100%;
+  height: 100vh;
+  background-image: url(background.png);
+  background-position: center;
+  background-size: cover;
+  margin: 10px;
+}
+.the-back img{
+  width: 500px;
+  margin-left: 100px;
+}
 .slider figure div{
   float: left;
   width: 20%;
@@ -1990,7 +2136,7 @@ h2{
   box-sizing: border-box;
 }
 .parti-updates-btn{
-  left: 10%;
+  left: 13%;
   transform: translate(-50%,-50%);
   position: absolute;
   margin-top: -550px;
@@ -1999,7 +2145,9 @@ h2{
 
 }
 .parti-updates-btn button{
-  margin: 10px;
+  margin-top: 50px;
+  
+
 }
 .parti{
   outline: none;
@@ -2008,25 +2156,26 @@ h2{
   height: 40px;
   color: #fff;
   font-size: 20px;
-  background-color: #e6b012;
+  background-color: #ce1127;
+  
 }
 .latest{
   outline: none;
-  border: 2px solid #e6b012;
+  border: 2px solid #ce1127;
   width: 150px;
   height: 35px;
-  color: #fff;
+  color: #003782;
   font-size: 20px;
   background: transparent;
 }
 .parti:hover{
   background: transparent;
-  border: 2px solid #e6b012;
+  border: 2px solid #ce1127;
   cursor: pointer;
 }
 .latest:hover{
  border: none;
- background-color: #e6b012;
+ background-color: #ce1127;
  cursor: pointer;
 }
 .horizontal-line{
@@ -2164,8 +2313,9 @@ span{
 .our-partners h1{
  margin-top: 15px;
  margin-left: 20px;
- font-size: 35px;
+ font-size: 40px;
  font-weight: bolder;
+ text-align: center;
 }
 
 @keyframes animate{
@@ -2251,8 +2401,8 @@ cursor: pointer;
 transform:scale(1.1);
 }
 .box2 img{
-  width: 270px;
-  height: 110px;
+  width: 300px;
+  height: 300px;
   margin: 5px;
 }
 .heading1{

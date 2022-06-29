@@ -52,7 +52,7 @@
   
 
 
- <section *ngFor="let announcement of announcements">
+ <section >
 
 
   <!-- //// -->
@@ -63,15 +63,19 @@
      
     
       <div class="title">
-      {{removeHTML(announcement.title)}}
+        What are the dates of the Hackathon?
     </div>
     <div class="date">
-      {{announcement.date | date:'fullDate'}}
+      29 June 2022
     </div>
 
     <div class="message">
+
+      16 September: Workshop about training members on the technology to be used in the hackathon and discuss the Intellectual Property and commissioning of the system<br><br>
+      17 and 18 September - Hacking overnight.<br><br>
+      19 September - Presentations and Judging.
            
-      {{removeHTML(announcement.message)}}
+      
 
     </div>  
        <!--  <a target ="_blank" href="ACADEMIC RECORD.pdf" download class="download-btn">Download PDF</a> -->
