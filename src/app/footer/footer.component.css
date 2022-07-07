@@ -5,6 +5,7 @@
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center ;
+    /* text-align: center; */
   }
   .nav-links{
     flex: 1;
@@ -166,7 +167,7 @@
     color: #c7c7c7;
   }
   p{
-    font-size: 16px;
+    font-size: 20px;
     color: #fff;
     text-align: center;
   }

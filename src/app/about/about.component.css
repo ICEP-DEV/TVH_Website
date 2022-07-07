@@ -734,7 +734,7 @@ h2{
 }
 }
 @media only screen and (min-width: 1920px){
- 
+
   *{
     margin: 0;
     padding: 0;
@@ -807,7 +807,7 @@ p{
   text-align:center;
   font-size: 25px;
 
-  
+
 }
 .main p{
   margin-top: 40px;
@@ -865,7 +865,8 @@ h2{
   align-items: center;
   text-align: justify;
   padding: 10px;
-  background: linear-gradient(to top,#003782 50%,#fff 50%);
+  background: linear-gradient(to top,#0ab8ec 50%,rgb(9, 132, 233) 50%);
+  /* background: linear-gradient(to top,#003782 50%,#fff 50%); */
   background-size: 100% 200%;
   transition: all .8s;
 }
