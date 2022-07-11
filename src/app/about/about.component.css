@@ -434,7 +434,7 @@ span{
 .hack-themes{
   width: 100%;
   height: 100vh;
-  background-image:linear-gradient(to right,#00265ce8 0%,#00265ce8 100%),url(annouce-pic.jpg);
+  background-image:linear-gradient(to right,#00265ce8 0%,#00265ce8 50%),url(annouce-pic.jpg);
   background-position: center;
   background-size: cover;
   margin-top: 35px;
@@ -500,7 +500,7 @@ box-sizing: border-box;
   align-items: center;
   text-align: justify;
   padding: 10px;
-  background: linear-gradient(to top,#003782 50%,#fff 50%);
+  background: linear-gradient(to top,#16a5e7 50%,#003782 50%);
   background-size: 100% 200%;
   transition: all .8s;
 }
@@ -865,8 +865,7 @@ h2{
   align-items: center;
   text-align: justify;
   padding: 10px;
-  background: linear-gradient(to top,#0ab8ec 50%,rgb(9, 132, 233) 50%);
-  /* background: linear-gradient(to top,#003782 50%,#fff 50%); */
+  background: linear-gradient(to top,#003782 50%,#0ab8ec  50%);
   background-size: 100% 200%;
   transition: all .8s;
 }
