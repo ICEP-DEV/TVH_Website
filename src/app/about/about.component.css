@@ -98,9 +98,9 @@ h2{
 
 .the-main{
   width: 100%;
-  height: 12vh;
-  background-image:linear-gradient(to right,rgba(0, 0, 255, 0.863) 0%,rgba(0, 0, 255, 0.822) 0%,rgba(255, 0, 0, 0.822) 100%),url(annouce-pic.jpg);
-  background-position: left;
+  height: 15vh;
+  background-image:linear-gradient(to right,rgba(0, 0, 255, 0.637) 0%,rgba(255, 0, 0, 0.637) 100%),url(annouce-pic.jpg);
+  background-position: center;
   background-size: cover;
 }
 .ann-heading{
@@ -109,7 +109,7 @@ h2{
   color: #fff;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 4%;
+  top: 2%;
   left: 25%;
   }
   .hack-themes{
@@ -315,6 +315,19 @@ p{
     top: 0;
 
 }
+.main h1{
+  text-align: left;
+}
+.horizontal-line{
+  width: 40%;
+  height: 2px;
+  margin-top: 10px;
+  background-color: #000;
+  box-shadow: 0 0 20px #000;
+  position: absolute;
+  left: 20%;
+  transform: translate(-50%,-50%);
+}
 .thenav img{
   width: 110px;
   margin-left: 1px;
@@ -355,27 +368,19 @@ p{
 }
 .the-main{
   width: 100%;
-  height: 45vh;
+  height: 25vh;
   background-image:linear-gradient(to right,rgba(0, 0, 255, 0.863) 0%,rgba(0, 0, 255, 0.822) 0%,rgba(255, 0, 0, 0.822) 100%),url(annouce-pic.jpg);
   background-position: center;
   background-size: cover;
 }
-.ann-heading{
-font-size: 50px;
-font-weight: 500;
-color: #fff;
-position: absolute;
-transform: translate(-50%, -50%);
-top: 25%;
-left: 15%;
-}
+
 .ann-heading{
   font-size: 50px;
   font-weight: 500;
   color: #fff;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 25%;
+  top: 20%;
   left: 15%;
   }
 nav img{
@@ -551,6 +556,11 @@ box-sizing: border-box;
 }
 #check{
   display: none;
+}
+p{
+  text-align:left;
+  font-size: 14px;
+  font-weight: 500;
 }
 }
 @media only screen and (min-width: 992px) {
@@ -861,7 +871,7 @@ h2{
 }
 
 h1{
-  text-align: center;
+  text-align: left;
   color: #003782;
   margin-top: 20px;
   font-size: 70px;
@@ -869,7 +879,9 @@ h1{
 }
 p{
   text-align:center;
-  font-size: 25px;
+  font-size: 30px;
+  text-align:left;
+  
 
 
 }
@@ -879,7 +891,7 @@ p{
 }
 .the-main{
   width: 100%;
-  height: 45vh;
+  height: 30vh;
   background-image:linear-gradient(to right,rgba(0, 0, 255, 0.863) 0%,rgba(0, 0, 255, 0.822) 0%,rgba(255, 0, 0, 0.822) 100%),url(annouce-pic.jpg);
   background-position: center;
   background-size: cover;
@@ -900,12 +912,14 @@ p{
   background-color: #000;
   box-shadow: 0 0 20px #000;
   position: absolute;
-  left: 50%;
+  left: 100%;
   transform: translate(-50%,-50%);
 }
 .para p{
   margin-top: 80px;
   font-size: 25px;
+  line-height: 25px;
+
 }
 h2{
   text-align: center;
@@ -940,6 +954,7 @@ h2{
  border: none;
  cursor: pointer;
 }
+
 .box img{
   width: 100px;
   height: 50px;
@@ -1008,7 +1023,7 @@ box-sizing: border-box;
   margin-top: 40px;
   background-color: #000;
   position: absolute;
-  left: 50%;
+  left: 5%;
   transform: translate(-50%,-50%);
 }
 .horizontal{
