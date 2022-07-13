@@ -52,7 +52,7 @@
   float: right;
   line-height: 80px;
   font-size: 30px;
-  margin-top: -50px;
+  margin-top: 20px;
   margin-right: 10px;
 }
 #check{
@@ -65,10 +65,11 @@
 
 .main{
   width: 100%;
-  height: 1240vh;
+  height: 930vh;
   background:linear-gradient(to right,#00265cb7 0%,#00265cb7 100%),url(slider.jpg);
   background-position: center;
   background-size: cover;
+  
 }
 h1{
   text-align: center;
@@ -89,7 +90,7 @@ h1{
   display: flex;
   flex-direction: column;
   width: 400px;
-  height: 750px;
+  height: 850px;
   margin: 10px;
   align-items: center;
   text-align: justify;
@@ -110,6 +111,23 @@ h1{
   font-size: 13px;
   color:#fff;
 }
+.the-main{
+  width: 100%;
+  height: 12vh;
+  background-image:linear-gradient(to right,rgba(0, 0, 255, 0.863) 0%,rgba(0, 0, 255, 0.822) 0%,rgba(255, 0, 0, 0.822) 100%),url(annouce-pic.jpg);
+  background-position: left;
+  background-size: cover;
+  
+}
+.ann-heading{
+  font-size: 40px;
+  font-weight: 500;
+  color: #fff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 7%;
+  left: 25%;
+  }
 h3{
    font-size: 15px;
    color: #fff;
@@ -120,6 +138,7 @@ h2{
   font-weight: bold;
   color:#e6b012;
   padding:10px;
+ 
 }
 .row1{
   display: flex;

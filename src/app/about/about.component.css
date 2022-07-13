@@ -44,6 +44,7 @@
 
 }
 
+
 #check:checked ~ .nav-links{
   left: 0;
 }
@@ -52,7 +53,7 @@
   float: right;
   line-height: 80px;
   font-size: 30px;
-  margin-top: -50px;
+  margin-top: 20px;
   margin-right: 10px;
 }
 #check{
@@ -65,29 +66,29 @@
 
 
 h1{
-  text-align: center;
+  text-align: left;
   color: #003782;
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 25px;
   font-weight: 500;
 }
 p{
-  text-align:center;
+  text-align:left;
   font-size: 14px;
   font-weight: 500;
 }
 .horizontal-line{
   width: 80%;
   height: 2px;
-  margin-top: 40px;
+  margin-top: 10px;
   background-color: #000;
   box-shadow: 0 0 20px #000;
   position: absolute;
-  left: 50%;
+  left: 20%;
   transform: translate(-50%,-50%);
 }
 .para p{
-  margin-top: 80px;
+  margin-top: 60px;
 }
 h2{
   text-align: center;
@@ -97,9 +98,9 @@ h2{
 
 .the-main{
   width: 100%;
-  height: 45vh;
+  height: 12vh;
   background-image:linear-gradient(to right,rgba(0, 0, 255, 0.863) 0%,rgba(0, 0, 255, 0.822) 0%,rgba(255, 0, 0, 0.822) 100%),url(annouce-pic.jpg);
-  background-position: center;
+  background-position: left;
   background-size: cover;
 }
 .ann-heading{
@@ -108,7 +109,7 @@ h2{
   color: #fff;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 25%;
+  top: 4%;
   left: 25%;
   }
   .hack-themes{
@@ -169,7 +170,7 @@ h2{
   align-items: center;
   text-align: justify;
   padding: 10px;
-  background: linear-gradient(to top,#003782 50%,#fff 50%);
+  background: linear-gradient(to top,#003782 50%,#0ab8ec  50%);
   background-size: 100% 200%;
   transition: all .8s;
 }
@@ -231,6 +232,27 @@ h2{
     position: relative;
     right: -28%;
 
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  height: 260px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.329);
+  margin: 10px;
+  align-items: center;
+  text-align: justify;
+  padding: 10px;
+  background: linear-gradient(to top,#003782 50%,#0ab8ec  50%);
+  background-size: 100% 200%;
+  transition: all .8s;
+}
+.box:hover{
+ background-position: left bottom ;
+
+ color: #fff;
+ border: none;
+ cursor: pointer;
 }
 .thenav h1{
 
@@ -500,7 +522,7 @@ box-sizing: border-box;
   align-items: center;
   text-align: justify;
   padding: 10px;
-  background: linear-gradient(to top,#16a5e7 50%,#003782 50%);
+  background: linear-gradient(to top,#003782 50%,#0ab8ec  50%);
   background-size: 100% 200%;
   transition: all .8s;
 }
@@ -620,6 +642,27 @@ h2{
   font-weight: 500;
   font-size: 25px;
 }
+.box{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.329);
+  margin: 10px;
+  align-items: center;
+  text-align: justify;
+  padding: 10px;
+  background: linear-gradient(to top,#003782 50%,#0ab8ec  50%);
+  background-size: 100% 200%;
+  transition: all .8s;
+}
+.box:hover{
+ background-position: left bottom ;
+
+ color: #fff;
+ border: none;
+ cursor: pointer;
+}
 .las{
   display: none;
 }
@@ -725,6 +768,27 @@ h2{
   text-align: center;
   font-weight: 500;
   font-size: 25px;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.329);
+  margin: 10px;
+  align-items: center;
+  text-align: justify;
+  padding: 10px;
+  background: linear-gradient(to top,#003782 50%,#0ab8ec  50%);
+  background-size: 100% 200%;
+  transition: all .8s;
+}
+.box:hover{
+ background-position: left bottom ;
+
+ color: #fff;
+ border: none;
+ cursor: pointer;
 }
 .las{
   display: none;

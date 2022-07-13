@@ -35,10 +35,10 @@
     margin-top: -40px;
   }
   .the-back img {
-    width: 180px;
+    width: 220px;
     margin-left: 10px;
-    margin-top: -30px;
-    margin-bottom: 100px;
+    margin-top: -15px;
+    margin-bottom: 130px;
 
   }
 
@@ -101,7 +101,7 @@
     left: 35%;
     transform: translate(-50%, -50%);
     position: absolute;
-    margin-top: -225px;
+    margin-top: -310px;
     color: #003782;
     font-weight: bold;
     font-size: 11px;
@@ -111,15 +111,15 @@
     left: 35.5%;
     transform: translate(-50%, -50%);
     position: absolute;
-    margin-top: -195px;
+    margin-top: -280px;
     color: #003782;
     line-height: 10px;
     font-size: 9px;
   }
 
   .ball {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     background-color: #003782;
     border-radius: 50%;
     margin-top: 23px;
@@ -138,12 +138,12 @@
   }
 
   .ball3 {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     background-color: #e6b012;
     border-radius: 50%;
-    margin-top: -8px;
-    margin-left: 100px;
+    margin-top: 10px;
+    margin-left: 120px;
     animation: aniname1 2s 1;
   }
 
@@ -158,12 +158,12 @@
   }
 
   .ball2 {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background-color: #ce1127;
     border-radius: 50%;
-    margin-top: -110px;
-    margin-left: 45px;
+    margin-top: -140px;
+    margin-left: 60px;
     animation: aniname2 2s 1;
   }
 
@@ -534,8 +534,8 @@
   }
 
   .box2 img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin: -25px;
   }
 
@@ -1146,8 +1146,8 @@
     margin: 20px 0px;
 }
 .ball {
-  width: 90px;
-  height: 90px;
+  width: 120px;
+  height: 120px;
   background-color: #003782;
   border-radius: 50%;
   margin-top: 70px;
@@ -1166,11 +1166,11 @@
 }
 
 .ball3 {
-  width: 90px;
-  height: 90px;
+  width: 120px;
+  height: 120px;
   background-color: #e6b012;
   border-radius: 50%;
-  margin-top: -10px;
+  margin-top: 28px;
   margin-left: 290px;
   animation: aniname1 2s 1;
 }
@@ -1186,11 +1186,11 @@
 }
 
 .ball2 {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   background-color: #ce1127;
   border-radius: 50%;
-  margin-top: -200px;
+  margin-top: -300px;
   margin-left: 160px;
   animation: aniname2 2s 1;
 }
@@ -1222,9 +1222,10 @@
     left: -1%;
   }
   .the-back img {
-    width: 290px;
-    /* margin-left: 60px; */
-    margin-bottom: 200px;
+    width: 350px;
+    margin-top: 30px;
+    margin-left: 60px; 
+    margin-bottom: 250px;
   }
 
   .nav-links ul li a {
@@ -1259,7 +1260,7 @@
     left: 35%;
     transform: translate(-50%, -50%);
     position: absolute;
-    margin-top: -400px;
+    margin-top: -600px;
     color: #003782;
     font-size: 25px;
   }
@@ -1268,7 +1269,7 @@
     left: 37%;
     transform: translate(-50%, -50%);
     position: absolute;
-    margin-top: -355px;
+    margin-top: -555px;
     color: #003782;
     font-size: 15px;
   }
@@ -1691,6 +1692,7 @@
     width: 130px;
     margin-left: -160px;
     margin-top: 5px;
+    
   }
 
   .nav-links ul{
@@ -1718,7 +1720,7 @@
 .the-back img {
     width: 400px;
     margin-left: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 150px;
   }
   .the-back {
     width: 100%;
@@ -1778,7 +1780,7 @@
     height: 120px;
     background-color: #003782;
     border-radius: 50%;
-    margin-top: 110px;
+    margin-top: 190px;
     margin-left: 35px;
     animation: aniname 2s 1;
   }
@@ -1798,8 +1800,8 @@
     height: 120px;
     background-color: #e6b012;
     border-radius: 50%;
-    margin-top: -10px;
-    margin-left: 290px;
+    margin-top: -2px;
+    margin-left: 350px;
     animation: aniname1 2s 1;
   }
   
@@ -1818,8 +1820,8 @@
     height: 100px;
     background-color: #ce1127;
     border-radius: 50%;
-    margin-top: -200px;
-    margin-left: 160px;
+    margin-top: -290px;
+    margin-left: 200px;
     animation: aniname2 2s 1;
   }
   
@@ -2850,13 +2852,13 @@
 
   h2 {
 
-    left: 26.5%;
+    left: 30%;
     transform: translate(-50%, -50%);
     position: absolute;
     margin-top: -720px;
     color: #003782;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 55px;
   }
 
   .ball {
@@ -2864,7 +2866,7 @@
     height: 240px;
     background-color: #003782;
     border-radius: 50%;
-    margin-top: 350px;
+    margin-top: 450px;
     margin-left: 60px;
     animation: aniname 2s 1;
   }
@@ -2885,7 +2887,7 @@
     background-color: #e6b012;
     border-radius: 50%;
     margin-top: -30px;
-    margin-left: 850px;
+    margin-left: 750px;
     animation: aniname1 2s 1;
   }
 
@@ -2904,8 +2906,8 @@
     height: 180px;
     background-color: #ce1127;
     border-radius: 50%;
-    margin-top: -410px;
-    margin-left: 480px;
+    margin-top: -490px;
+    margin-left: 460px;
     animation: aniname2 2s 1;
   }
 
@@ -2920,11 +2922,12 @@
   }
 
   .the-content p {
-    left: 27.5%;
+    left: 29.5%;
     transform: translate(-50%, -50%);
     position: absolute;
-    margin-top: -625px;
+    margin-top: -650px;
     color: #003782;
+    line-height: 38px;
     font-size: 30px;
   }
 
@@ -2938,7 +2941,7 @@
   }
 
   .the-back img {
-    width: 500px;
+    width: 800px;
     margin-left: 100px;
   }
 
@@ -3161,11 +3164,11 @@
   }
 
   .our-partners h1 {
-    margin-top: 15px;
+    margin-top: 30px;
     margin-left: 20px;
     font-size: 40px;
     font-weight: bolder;
-    text-align: center;
+    text-align: left;
   }
 
   @keyframes animate {
@@ -3311,8 +3314,8 @@
   }
 
   .box2 img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin: 5px;
   }
 
@@ -3355,4 +3358,7 @@
 .part {
   background-color: #003782;
   color: #fff;
+  height: 50px;
+  margin-top: 10px;
+  
 }
